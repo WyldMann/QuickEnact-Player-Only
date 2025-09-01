@@ -1,0 +1,31 @@
+quick_enact_enable = {
+
+	#Trigger block that determines whether the decision is shown to the player as a potential option
+	is_shown = {
+		
+		#A variable is often used to make sure the decision is not repeatable
+		NOT = { has_variable = has_quick_enact }
+	}
+
+	#Trigger block that determines when a shown decision can actually be selected
+	possible = {
+		
+	}
+	
+	#The effects that are executed once the decision is taken
+	when_taken = {
+		add_modifier = {
+           		name = quick_enact
+        	}
+		
+		#The variable referenced in the is_shown trigger/section
+		set_variable = {
+			name = has_quick_enact
+		}
+	}	
+	
+	#The chance/weight that the ai will take the decision, defaults to 1 if not specified. If chance is 0, the AI will not use the decision
+	ai_chance = {
+		value = 0
+	}
+}

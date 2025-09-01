@@ -1,0 +1,4 @@
+quick_enact = {
+	country_law_enactment_success_add = 10000000
+	country_law_enactment_time_mult = -2
+}	

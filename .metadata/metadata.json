@@ -1,0 +1,12 @@
+{
+  "name" : "Quick Enact for Player Only",
+  "id" : "quick-enact-for-player-only",
+  "version" : "1.0",
+  "supported_game_version" : "",
+  "short_description" : "adds a enactment success and shorter enactment time modifier",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
