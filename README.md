@@ -5,7 +5,7 @@ Adds a player-only decision that gives the following permanent modifiers:
 - adds 10000000% law enactment success chance
 - decreases law enactment duration by -200%
 
-You can now enact any law you have researched instantly.
+You can now instantly enact any law you have access to, regardless of interest group support.
 
 ## Installation
 Unzip file contents in the Victoria 3 Mod Directory in %USERPROFILE%\Documents\Paradox Interactive\Victoria 3\mod\
